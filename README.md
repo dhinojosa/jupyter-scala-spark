@@ -37,6 +37,7 @@ Executing the command: jupyter notebook
         http://(3313c5d8df30 or 127.0.0.1):8888/?token=e38c29ce9c164764637b13c576a4cbd683d8bcc5ea64746d
 ```
 
-* Open the Jupyter Notebook using that token on `127.0.0.1`. For example, the above shows that the jupyter notebook
-  is available at `http://(3313c5d8df30 or 127.0.0.1):8888/?token=e38c29ce9c164764637b13c576a4cbd683d8bcc5ea64746d`
+* Open the Jupyter Notebook using that token on `127.0.0.1`. For example, the above shows that the Jupyter notebook
+  is available at `http://(3313c5d8df30 or 127.0.0.1):8888/?token=e38c29ce9c164764637b13c576a4cbd683d8bcc5ea64746d` so
+  open in your browser `http://localhost:8888/?token=e38c29ce9c164764637b13c576a4cbd683d8bcc5ea64746d`
 * Open any of the notebooks in the `notebooks` folder from within Jupyter and run the cells using `CTRL + ENTER`
