@@ -1,0 +1,6 @@
+..bfg-report
+.bash_history
+.ipython
+.jupyter
+.local
+**/*.ipynb_checkpoints
