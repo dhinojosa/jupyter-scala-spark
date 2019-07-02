@@ -1,0 +1,4 @@
+* The references description is all over the place in where we describe any, anyref, and anyval
+* Talk about collections before
+* implicits surely needed
+* Jupyter notebook help and introduction in the README.md
