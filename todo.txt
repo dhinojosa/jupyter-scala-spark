@@ -2,3 +2,6 @@
 * Talk about collections before
 * implicits surely needed
 * Jupyter notebook help and introduction in the README.md
+* Tell people about == is equals
+* I didn't cover Vector[]
+* What about for comprehensions?
