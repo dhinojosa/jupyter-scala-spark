@@ -5,3 +5,11 @@
 * Tell people about == is equals
 * I didn't cover Vector[]
 * What about for comprehensions?
+* Stream?
+* Parameterized Type
+* Option and functions
+* Partial Function 
+* Ensure we have options in all examples for functions
+* Ensure we have example for each one
+* Prime also has a square root
+* FoldLeft or Reduce
