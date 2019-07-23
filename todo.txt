@@ -1,7 +1,10 @@
+* Jupyter notebook help and introduction in the README.md
+
+Scala
+-----
 * The references description is all over the place in where we describe any, anyref, and anyval
 * Talk about collections before
 * implicits surely needed
-* Jupyter notebook help and introduction in the README.md
 * Tell people about == is equals
 * I didn't cover Vector (Done)
 * What about for comprehensions?
@@ -14,3 +17,119 @@
 * Prime also has a square root
 * FoldLeft or Reduce
 * Always look in the object for ways to create collections
+
+Spark
+-----
+Implicits
+Where do I first say that `DataSet` and `DataFrame` are the same
+How to run it
+collect
+collect_list
+expand rows
+order_by
+
+Spark Basics
+  Overview
+  Infrastructure
+  Partitions 
+  Data Locality (Need to do!)
+  Actions (Important to keep all functions, before Action)
+  Spark Session
+
+DataFrame - Reading and Creating
+  Demo - Range of Numbers
+  Demo - Read from file
+  Demo - Read Schema
+  Demo - InferSchema/Header
+  Demo - Show
+  Demo - Creating custom DataFrames
+  Demo - Read with Custom Schema
+  Lab - Reading information
+ 
+DataFrame - Columns
+  Demo - Specifying a single column
+  Demo - Specifying a group of columns
+  Demo - Creating a column
+  Demo - Creating a group of columns
+  Demo - Dropping a column
+  Demo - Renaming a column
+  Demo - Selecting a column
+  Demo - Selecting a group of columns
+  Demo - Selecting a group of columns with different names
+  Demo - Manipulating a column on a new one
+  Demo - User Defined Functions
+  Lab - Columns
+
+DataFrame - Rows
+  Show API: Rows
+  Demo - Specifying a single row
+  Demo - Specifying a group of rows
+  Demo - Creating a row
+  Demo - Dropping a group of rows
+  Demo - Dropping a row
+  Demo - Selecting a row
+  Demo - Selecting a groups of rows
+  Demo - Duplicating rows
+  Lab - Rows
+
+DataFrame - Querying
+  Show API: Functions
+  Demo - Value Counts
+  Demo - Sorting
+  Demo - Grouping and Subtotals
+  Demo - Breakup a List in Cell
+  Demo - SelectExpr
+  Demo - Literals
+  Demo - Distinct
+  Demo - Where
+  Demo - Finding all null
+  Demo - Pivot, Transpose
+  Demo - Finding the max
+  Demo - Descriptive Statistics
+  Lab: Querying
+
+DataFrame - Cleaning  
+  Show API: https://spark.apache.org/docs/2.3.0/api/scala/index.html?org/apache/spark/sql/Dataset.html#org.apache.spark.sql.DataFrameNaFunctions
+  Demo - Cleaning /N absent rows
+  Demo - Cleaning /N absent columns
+  Demo - Imputing
+  Demo - Fills
+  Demo - Handling Duplicates
+  Lab: Cleaning
+
+DataFrame - Joining
+  Show API: DataSets
+  Demo - Left Joining
+  Demo - Right Joining
+  Lab - Joining
+
+Day 3 
+
+Spark SQL 
+  Demo - Select all columns
+  Demo - Select some columns
+  Demo - Aggregate Functions
+  Demo - Other Functions
+  Demo - Joining
+  Lab: Spark SQL
+
+DataSets - Reading
+  Demo - DataSets are DataFrames
+  Demo - Setting to a case class
+  Demo - Creating from a Seq
+  Demo - Taking Some of the Dataset
+  Demo - Processing Functions
+  Demo - Integrating DataSets with DataFrames
+  Lab: Functional Programming with DataSets
+
+Machine Learning - 
+  Preparing for Machine Learning
+  Demo - Vector Assembler
+  Demo - Linear Regression
+  Demo - Decision Tree
+  Lab: Decision Tree
+
+Windowing?
+
+What are the most popular wines per reviewer?
+
