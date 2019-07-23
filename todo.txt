@@ -27,6 +27,8 @@ collect
 collect_list
 expand rows
 order_by
+write a dataframe using dataframe.write
+partition
 
 Spark Basics
   Overview
