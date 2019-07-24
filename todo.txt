@@ -29,6 +29,7 @@ expand rows
 order_by
 write a dataframe using dataframe.write
 partition
+need encoding and writing back to the file system
 
 Spark Basics
   Overview
