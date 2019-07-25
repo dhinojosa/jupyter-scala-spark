@@ -30,6 +30,10 @@ order_by
 write a dataframe using dataframe.write
 partition
 need encoding and writing back to the file system
+update run.bat
+:_*
+How to load a job
+How Partitions work
 
 Spark Basics
   Overview
