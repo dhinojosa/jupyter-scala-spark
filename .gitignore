@@ -5,3 +5,4 @@
 .local
 **/*.ipynb_checkpoints
 **/*.swp
+tmp/
