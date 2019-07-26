@@ -27,7 +27,7 @@ collect
 collect_list
 expand rows
 order_by
-write a dataframe using dataframe.write
+write a dataframe using dataframe.write (!!!!!!)
 partition
 need encoding and writing back to the file system
 update run.bat
